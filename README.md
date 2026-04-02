@@ -138,8 +138,8 @@ claw++ "refactor the database layer to use connection pooling"
 
 ```bash
 # Clone
-git clone https://github.com/claw-plusplus/claw-plusplus.git
-cd claw-plusplus
+git clone https://github.com/bryhuang9/claw-plus-plus.git
+cd claw-plus-plus
 
 # Configure (vcpkg auto-downloads dependencies)
 cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake
@@ -280,7 +280,7 @@ See [`docs/architecture.md`](docs/architecture.md) for the full deep-dive.
 ## 📁 Project Structure
 
 ```
-claw-plusplus/
+claw-plus-plus/
 ├── include/claw++/           # Public headers (23 files)
 │   ├── api/                  #   Provider interfaces + SSE streaming
 │   ├── commands/             #   Slash command interface + registry
@@ -411,6 +411,6 @@ MIT — see [`LICENSE`](LICENSE) for the full text.
 
 **Built with modern C++ and a lot of ☕**
 
-[Report a Bug](https://github.com/claw-plusplus/claw-plusplus/issues) · [Request a Feature](https://github.com/claw-plusplus/claw-plusplus/issues) · [Discussions](https://github.com/claw-plusplus/claw-plusplus/discussions)
+[Report a Bug](https://github.com/bryhuang9/claw-plus-plus/issues) · [Request a Feature](https://github.com/bryhuang9/claw-plus-plus/issues) · [Discussions](https://github.com/bryhuang9/claw-plus-plus/discussions)
 
 </div>

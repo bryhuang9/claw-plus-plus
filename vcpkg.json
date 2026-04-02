@@ -2,7 +2,7 @@
   "name": "claw-plusplus",
   "version-string": "0.1.0",
   "description": "Claw++ — High-performance C++23 AI coding agent CLI",
-  "homepage": "https://github.com/claw-plusplus/claw-plusplus",
+  "homepage": "https://github.com/bryhuang9/claw-plus-plus",
   "license": "MIT",
   "dependencies": [
     "cli11",
