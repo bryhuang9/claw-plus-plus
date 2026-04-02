@@ -1,0 +1,40 @@
+# Build
+build/
+out/
+cmake-build-*/
+.cache/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+compile_commands.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# vcpkg
+vcpkg_installed/
+
+# Conan
+CMakeUserPresets.json
+
+# Binary artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Session data
+.claw_sessions/
+*.db
