@@ -20,7 +20,7 @@ Give natural-language instructions. Claw++ reads your code, makes edits, runs co
 
 ## Overview
 
-Claw++ is a terminal-native AI coding agent that turns natural language into real code changes. It connects to any major LLM provider — Anthropic, OpenAI, or local models via Ollama — and orchestrates a suite of developer tools to edit files, run shell commands, search codebases, manage git, and debug autonomously.
+Claw++ is a terminal-native AI coding agent that turns natural language into real code changes. Rebuid of Claude Code Handler. It connects to any major LLM provider — Anthropic, OpenAI, or local models via Ollama — and orchestrates a suite of developer tools to edit files, run shell commands, search codebases, manage git, and debug autonomously.
 
 Built from the ground up in **C++23**, it starts instantly, handles massive contexts efficiently, and runs anywhere a C++ compiler does — no runtime, no garbage collector, no interpreter overhead.
 
@@ -324,27 +324,6 @@ Most AI coding tools are built in TypeScript, Python, or Rust. We chose C++23 fo
 | **C++23 features** | `std::expected`, structured bindings, ranges — modern and expressive |
 
 Claw++ proves that systems-level AI tooling doesn't need to sacrifice developer ergonomics for performance.
-
----
-
-## 🗺️ Roadmap
-
-- [x] Multi-provider LLM support (Anthropic, OpenAI, Ollama)
-- [x] 9 built-in tools (shell, file, git, search, web, todo, notebook)
-- [x] Interactive REPL + one-shot mode
-- [x] Session persistence and resume
-- [x] Plugin system (dynamic shared libraries)
-- [x] SSE streaming with incremental token output
-- [x] 85 unit and integration tests
-- [ ] **True streaming** — token-by-token output for Ollama (currently buffered)
-- [ ] **MCP (Model Context Protocol)** — stdio transport for external tool servers
-- [ ] **LSP integration** — code intelligence via Language Server Protocol
-- [ ] **Multi-agent orchestration** — delegate subtasks to specialist agents
-- [ ] **Vector memory** — persistent semantic search across sessions
-- [ ] **OAuth** — native Anthropic/OpenAI device-flow authentication
-- [ ] **TUI dashboard** — rich terminal UI with panels, progress, and diffs
-- [ ] **Diff preview** — show unified diffs before applying changes
-- [ ] **Conversation branching** — fork and explore alternative approaches
 
 ---
 
